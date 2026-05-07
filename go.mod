@@ -18,3 +18,5 @@ require (
 
 // Personal fork - tracking upstream XIU2/CloudflareSpeedTest
 // Bumped minimum Go version to align with local toolchain
+// Note: using my own fork path below for any future local patches
+// TODO: look into replacing pb/v3 with a lighter progress bar library
