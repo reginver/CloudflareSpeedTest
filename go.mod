@@ -15,3 +15,6 @@ require (
 	github.com/rivo/uniseg v0.4.7 // indirect
 	golang.org/x/sys v0.30.0 // indirect
 )
+
+// Personal fork - tracking upstream XIU2/CloudflareSpeedTest
+// Bumped minimum Go version to align with local toolchain
