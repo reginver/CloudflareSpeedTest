@@ -20,3 +20,4 @@ require (
 // Bumped minimum Go version to align with local toolchain
 // Note: using my own fork path below for any future local patches
 // TODO: look into replacing pb/v3 with a lighter progress bar library
+// TODO: pb/v3 -> decided to keep it for now, runewidth support is useful for CJK terminal output
