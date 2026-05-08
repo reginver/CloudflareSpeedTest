@@ -21,3 +21,5 @@ require (
 // Note: using my own fork path below for any future local patches
 // TODO: look into replacing pb/v3 with a lighter progress bar library
 // TODO: pb/v3 -> decided to keep it for now, runewidth support is useful for CJK terminal output
+// NOTE: go-runewidth v0.0.16 introduced a regression with some wide chars in older terminals;
+//       keeping an eye on v0.0.17 to see if it's fixed before upgrading
