@@ -13,7 +13,7 @@ const (
 	defaultPingTimes = 4
 	defaultMaxDelay  = 300
 	defaultMinSpeed  = 0
-	defaultOutputNum = 20
+	defaultOutputNum = 10
 )
 
 var (
