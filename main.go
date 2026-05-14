@@ -13,7 +13,7 @@ const (
 	defaultPingTimes = 4
 	defaultMaxDelay  = 300
 	defaultMinSpeed  = 0
-	defaultOutputNum = 10
+	defaultOutputNum = 20
 )
 
 var (
@@ -97,5 +97,5 @@ func main() {
 	//     utils.WriteCSV(filtered, outputFile)
 	// }
 
-	fmt.Printf("\nTest completed in %v\n", time.Since(startTime).Round(time.Millisecond))
+	fmt.Printf("\nTest completed in %v\n", time.Since(startTime))
 }
